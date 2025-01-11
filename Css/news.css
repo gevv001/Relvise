@@ -1,0 +1,115 @@
+.news {
+    width: 100%;
+    background-color: #fafafa;
+    position: relative;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+}
+
+.news__companies {
+    margin: 0 auto;
+    position: absolute;
+    top: 10%;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    height: 50%;
+}
+
+.news__img {
+    width: 100px;
+    height: 100px;
+}
+
+.news__newsletter {
+    background-color: var(--secondary-color-2);
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 35%;
+    width: 80%;
+    right: 10%;
+    bottom: 10%;
+    z-index: 1;
+}
+
+.news__text {
+    text-align: left;
+    color: white;
+    width: 40%;
+}
+
+.news__input__line {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.news__input {
+    height: 50%;
+    border: 1px solid white;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 10px 20px;
+}
+
+.news__input::placeholder {
+    font-family: Montserrat;
+}
+
+.news__button {
+    background-color: var(--primary-color);
+    border: 1px solid white;
+    color: white;
+    height: 50%;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 10px 20px;
+}
+
+
+.news__blank {
+    height: 20%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: var(--dark-background-color);
+}
+ @media (max-width: 430px) {
+    .news {
+       height: 50vh; 
+    }
+    .news__companies {
+       flex-wrap: wrap;
+       justify-content: space-evenly;
+    }
+    .news__img {
+        height: 70px;
+        width: 70px;
+    }
+    .news__newsletter {
+        flex-direction: column;
+    }
+    .news__text {
+        width: 90%;
+        text-align: center;
+    }
+    .news__input__line {
+        height: fit-content;
+    }
+    .news__input {
+        height: 100%;
+        padding: 5px 10px;
+        border-top-left-radius: 3px;
+        border-bottom-left-radius: 3px;
+    }
+    .news__button {
+        height: 100%;
+        padding: 5px 10px;
+        border-top-right-radius: 3px;
+        border-bottom-right-radius: 3px;
+    }
+
+ }

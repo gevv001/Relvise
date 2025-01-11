@@ -1,0 +1,57 @@
+:root {
+  --text-color: #252b42;
+  --second-text-color: #737373;
+
+  --primary-color: #ff7b47;
+  --secondary-color-1: #0d5c63;
+  --light-text-color: #fff;
+  --secondary-color-2: #17213C;
+  --dark-background-color: #252B42;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    font-family: sans-serif;
+  }
+  body {
+    width: 100%;
+  }
+  
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  
+  button, input, select, textarea {
+    font: inherit;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  ul, ol {
+    list-style: none;
+  }
+  
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  
+  button {
+    border: none;
+    background-color: #fff;
+  }
+
+  button:hover {
+    opacity: 0.75;
+  }

@@ -1,0 +1,119 @@
+.values {
+    width: 80%;
+    height: 50vh;
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    gap: 10%;
+}
+
+.values__intro {
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.values__vernagir {
+    text-align: center;
+}
+
+.values__mainText {
+    text-align: center;
+    color: var(--second-text-color);
+
+}
+
+.values__blocks {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    height: 70%;
+}
+
+.values__block__elem {
+    width: 25%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-shadow: 0px 0px 5px #e1e1e1;
+}
+
+.values__elem__img {
+    height: 30%;
+    width: 30%;
+    align-self: center;
+}
+.values__elem__vernagir {
+    text-align: center;
+}
+.values__elem__mainText {
+    text-align: center;
+    color: var(--second-text-color);
+}
+
+
+
+
+@media (max-width: 430px) {
+    
+    .values {
+        width: 80%;
+        height: 95vh;
+        /* height: 80vh; */
+        margin: 0 auto;
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-between; */
+        gap: 10%;
+    }
+    
+    .values__intro {
+        /* height: 40%; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 30px;
+    }
+    
+    .values__vernagir {
+        text-align: center;
+    }
+    
+    .values__blocks {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 5%;
+        /* height: 100%; */
+    }
+    
+    .values__block__elem {
+        width: 45%;
+        height: auto;
+        /* aspect-ratio: 1/1; */
+        /* height: 80%; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        box-shadow: 0px 0px 5px #e1e1e1;
+    }
+    
+    .values__elem__img {
+        height: 30%;
+        width: 30%;
+        align-self: center;
+    }
+    
+
+    
+    .values__elem__mainText {
+        /* overflow-wrap: break-word; */
+        width: 90%;
+    }
+}
