@@ -1,16 +1,15 @@
 .advice {
-    width: 80%;
-    height: 50vh;
+    width: 90%;
     margin: 0 auto;
     margin-top: 100px;
     display: flex;
     flex-direction: column;
-    gap: 10%;
-    scroll-margin-top: 196px;
+    gap: 30px;
+    /* scroll-margin-top: 196px; */
 }
 
 .advice__intro {
-    height: 30%;
+    gap: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -29,15 +28,18 @@
 .advice__blocks {
     display: flex;
     justify-content: center;
-    gap: 5%;
-    height: 70%;
+    gap: 30px;
+    flex-wrap: wrap;
 }
 
 .advice__block__elem {
     width: 25%;
+    min-width: 200px;
+    max-width: 250px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    gap: 20px;
     box-shadow: 0px 0px 5px #e1e1e1;
 }
 
@@ -46,8 +48,8 @@
 }
 
 .advice__elem__vernagir {
+    margin-top: 10px;
     text-align: center;
-    margin-top: 20px;
 }
 
 .advice__elem__mainText {
