@@ -1,6 +1,5 @@
 .video {
     width: 80%;
-    height: 85vh;
     margin: 0 auto;
     margin-top: 100px;
     margin-bottom: 100px;
@@ -74,6 +73,36 @@
 .video__second__mainText {
     text-align: left;
     color: var(--second-text-color);
+}
+
+@media (max-width: 610px) {
+    .video{
+        gap: 20px;
+    }
+    .video__content__video {
+        display: flex;
+        justify-content: center;
+    }
+    .video__content{
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .video__content__text{
+        /* width: 100%; */
+        gap: 20px;
+    }
+    .video__text {
+        width: 100%;
+    }
+    .video__content__video{
+        width: 100%;
+    }
+    iframe {
+        width: 100%;
+    }
 }
 
 
