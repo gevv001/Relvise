@@ -1,7 +1,7 @@
-.footer {
-    scroll-margin-top: 196px;
-    height: 40vh;
-}
+/* .footer {
+    /* scroll-margin-top: 196px; */
+/* height: 40vh; 
+} */
 
 .footer__contact {
     display: flex;
@@ -9,35 +9,21 @@
     background-color: #FAFAFA;
     justify-content: space-around;
     align-items: center;
+    padding: 30px;
 }
 
 
 .footer__contact__text__heading {
-    font-family: Montserrat;
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 32px;
-    letter-spacing: 0.10000000149011612px;
     text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
-
 }
 
 .footer__contact__text__main {
-    font-family: Montserrat;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 20px;
-    letter-spacing: 0.20000000298023224px;
     text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
 }
 
 
 .footer__contact__butt {
-    background-color: #FF7B47;
+    background-color: var(--primary-color);
     color: white;
     border-radius: 5px;
     padding: 20px 30px;
@@ -45,41 +31,38 @@
 }
 
 .footer__info {
-    height: 55%;
+    /* height: 55%; */
+    padding: 30px;
     background-color: #17213C;
 }
 
 .footer__socMedia {
-    height: 15%;
+    padding: 20px;
     background-color: #FAFAFA;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-.socMedia__text {
-    font-family: Montserrat;
-    font-size: 14px;
-    font-weight: 600;
-    line-height: 24px;
-    letter-spacing: 0.20000000298023224px;
-    text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
-
-}
-
-
 /* -----icons----- */
 
 .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* .fa {
     padding: 20px;
     font-size: 20px;
     width: 20px;
     height: 20px;
     text-decoration: none;
+    text-align: center;
     border-radius: 100%;
-}
+} */
 
 /* Add a hover effect if you want */
 .fa:hover {
@@ -117,6 +100,10 @@
     align-items: center;
 }
 
+.info__ul {
+    gap: 10px;
+}
+
 .info__li {
     display: flex;
     color: white;
@@ -142,6 +129,20 @@
     border-radius: 3px;
     opacity: 0.7;
 
+}
+
+@media (max-width: 610px) {
+    .footer__info {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        padding: 30px;
+    }
+
+    .fa {
+        padding: 15px;
+        width: 40px;
+    }
 }
 
 @media (max-width: 430px) {
@@ -181,4 +182,9 @@
         margin: 10px;
         gap: 10px;
     }
-}
+
+    .fa {
+        padding: 15px;
+        width: 40px;
+      }
+} 
