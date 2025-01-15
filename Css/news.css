@@ -125,14 +125,16 @@
 
     .news__input {
         height: 100%;
-        padding: 5px 10px;
+        width: 90%;
+        /* padding: 5px 5px; */
         border-top-left-radius: 3px;
         border-bottom-left-radius: 3px;
     }
 
     .news__button {
         height: 100%;
-        padding: 5px 10px;
+        width: 40%;
+        /* padding: 5px 5px; */
         border-top-right-radius: 3px;
         border-bottom-right-radius: 3px;
     }
