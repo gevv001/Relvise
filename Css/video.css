@@ -6,6 +6,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    gap: 30px;
 }
 
 .video__intro {
@@ -30,6 +31,7 @@
 .video__content {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .video__content__text {
@@ -38,6 +40,7 @@
     flex-direction: column;
     justify-content: space-between;
     height: 90%;
+    gap: 30px;
 }
 
 .video__text__heading {
@@ -65,6 +68,12 @@
     width: 2.5rem;
 }
 
+.video__second_sent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 
 .video__second__heading {
     text-align: left;
@@ -73,6 +82,18 @@
 .video__second__mainText {
     text-align: left;
     color: var(--second-text-color);
+}
+
+@media (max-width: 1069px) {
+    .video__content__text {
+        width: 40%;
+    }
+    .video__content__video {
+        width: 50%;
+    }
+    iframe {
+        width: 100%;
+    }
 }
 
 @media (max-width: 610px) {
